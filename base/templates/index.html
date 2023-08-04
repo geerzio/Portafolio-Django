@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{% static '/css/main.css' %}"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container" class="skill">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-body border-info" id="profile-wrapper">
+            <img
+              id="profile-pic"
+              src="{% static 'images/german.jpg' %}"
+              alt=""
+            />
+            <hr />
+            <h4>German Luis Ponzio</h4>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="card card-body border-info h-100">
+            <h3><u>Mis primeros pasos como desarrolador</u></h3>
+            <hr />
+            <p>
+              Hola soy German, hace dos años que comence a con el mundo de la
+              programación y me apaciona el desarrollo Backend y todo lo que
+              respecta a bases de datos. Actualmente estoy haciendo pequeños
+              proyectos en Django y conociendo las herramientas de Front. Ademas
+              estoy estudiando la Tecnicatura superior en desarrollo de
+              software, 13 materias promocionadas de 23. El primer año
+              aprendimos el lenguaje Python y luego introducimos Python
+              orientada a objetos con la creación de una base de datos armada
+              con MariaDB. Este segundo año desarrollaremos mobile con el
+              lenguaje Kotlin
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6" style="background-color: hsla(0, 0%, 98%, 0.2)">
+          <div class="card card-body border-info h-100">
+            <h3><u>Hard Skills</u></h3>
+            <hr />
+            <p>
+              Python (POO), Open Orange(CRM), Office, Html, Css,
+              SQL(PostgreSQL,MariaDB), Kotlin
+            </p>
+            <hr />
+            <h3><u>Soft Skills</u></h3>
+            <p>
+              Adaptabilidad, Manejo de tareas múltiples, Trabajo en equipo,
+              Independiente, Abierto a nuevos conocimientos
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body border-info h-100">
+            <h3><u>Datos Academicos</u></h3>
+            <hr />
+            <p>
+              Técnico superior en desarrollo software IFTS N°4 | 2022- en curso
+            </p>
+            <p>Big Data / Data Analytics | Codo a Codo | 2023 - en curso</p>
+            <p>
+              Perito mercantil con especialización contable e impositiva
+              Comercial Jose Leon Suarez n32 | 2008-2012
+            </p>
+            <p>First Certificate - 2022</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-body border-info h-100">
+            <h3><u>Experiencia Laboral</u></h3>
+            <hr />
+            <p><b>Pam Argentina S.A. | 2015 - Actualidad - Back Office</b></p>
+            <p>
+              Administrativo comercial, Ventas material de IORL, Armados de
+              presupuestos, Facturación, Atención al cliente, Gestión de pagos
+            </p>
+            <p><b>Vasculart S.A. | 2013 - 2015 - Cadete Administrativo</b></p>
+            <p>Cadete, Archivo, Recepción</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card card-body border-info h-100">
+            <h3><u>Contacto</u></h3>
+            <hr />
+            <div class="social-link">
+              <img class="icono" src="{% static 'images/telefono.png'%}" />
+              <p>+54 9 1532612712 -</p>
+            </div>
+
+            <div class="social-link">
+              <img class="icono" src="{% static 'images/github.png'%}" />
+
+              <a
+                href="https://github.com/geerzio"
+                target="_blank"
+                class="discription"
+                ><i class="fa-brands fa-github"> Github </i></a
+              >
+            </div>
+            <div class="social-link">
+              <img class="icono" src="{% static 'images/linkedin.png'%}" />
+              <a
+                href="https://www.linkedin.com/in/germán-luis-ponzio-0616b2100/"
+                target="_blank"
+                class="discription"
+                ><i class="bi bi-linkedin">Linkedin German Ponzio</i></a
+              >
+            </div>
+            <div class="social-link">
+              <img class="icono" src="{% static 'images/correo.png'%}" />
+              <a
+                href="mailto:german.l.ponzio@hotmail.com"
+                target="_blank"
+                class="discription"
+              >
+                Enviame un correo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr />
+      <div class="col-md-12">
+        <div class="card card-body border-info h-100" id="comentario">
+          <h3 class="h3-contacto"><u>Contacteme</u></h3>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
